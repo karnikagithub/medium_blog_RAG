@@ -1,7 +1,7 @@
 import os
 
 os.environ["OPENAI_API_KEY"] = (
-    "sk-proj-y131Gw11311IfAvuulHN3333T3Blb2kFJMia11313rZRJM25EaYG"
+    "YOUR_OPENAI_API_KEY"
 )
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import CharacterTextSplitter
