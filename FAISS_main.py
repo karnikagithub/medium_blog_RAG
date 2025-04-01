@@ -16,7 +16,7 @@ from langchain import hub
 
 if __name__ == "__main__":
     print("hi")
-    pdf_path = "/Users/edenmarco/Desktop/tmp/react.pdf"
+    pdf_path = "D:\\RAG_medium_blog\\react.pdf"
     loader = PyPDFLoader(file_path=pdf_path)
     documents = loader.load()
     text_splitter = CharacterTextSplitter(
